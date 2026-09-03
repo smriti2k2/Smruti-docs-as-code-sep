@@ -3,7 +3,7 @@ This troubleshooting section is intended to assist in identifying and resolving 
 
 <summary>How does BMC AMI Assistant ensure accuracy and reliability?</summary>
 
-AI-generated insights are recommendations, not absolute solutions. You must review and validate outputs before implementation. BMC AMI Assistant leverages available data, AI best practices, and user feedback to improve recommendations.
+You must review and validate outputs before implementation. BMC AMI Assistant leverages available data, AI best practices, and user feedback to improve recommendations.
 
 </details>
 
