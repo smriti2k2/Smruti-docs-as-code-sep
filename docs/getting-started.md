@@ -1,91 +1,21 @@
-
-- [Heading](#heading)
-  - [Heading](#heading-1)
-    - [Heading](#heading-2)
-- [Getting Started](#getting-started)
+- [Getting started](#getting-started)
   - [Before you begin](#before-you-begin)
-  - [Next steps](#next-steps)
+## Getting started 
+If you are new to the BMC AMI Platform product, read and perform the getting started tasks to learn how to simplify daily operations, improve knowledge retention, and support both experienced and new mainframe professionals using the **BMC AMI Platform** product. 
 
+### Before you begin
+The BMC AMI Platform runs on Kubernetes‑based container orchestration, with Red Hat OpenShift providing the enterprise Kubernetes distribution. Kubernetes provides the core control plane and worker node architecture required to schedule, execute, scale, and self‑heal containerized workloads. Control‑plane components, including the **API server**, scheduler, controller manager, and etcd datastore, manage cluster state and orchestration logic, while worker nodes host platform and application pods via the kubelet and container runtime. 
 
-# Heading
-## Heading
-### Heading
-# Getting Started
-Welcome to our product documentation.
-## Before you begin
-Make sure you have an active account.
-## Next steps
-Continue with the installation guide.
+ Version 2.2.00 introduces several key enhancements:
 
-This space contains information about the 2.1.00 release of the BMC AMI Platform product. BMC AMI Platform simplifies mainframe management by integrating AI and cloud technologies. It includes generative AI (GenAI) features that are seamlessly and flexibly integrated into the platform. 
- On bash, type `git coomand`
- ```
- Test test
- ```
- [README.md](../README.md)
-For more information, see
-Through a dedicated UI console, the platform provides control and observability for all **connected** internal services and large language models (LLMs). BMC AMI Platform empowers IT professionals to solve complex problems, bridge knowledge gaps, and accelerate innovation using GenAI technology.
-List of guides:
-- gettig started guide
-  
-- User guide
-  - overview
-    - keyconcept
- 
-    - 
-  
-1. getting sterted
-2. bwjdj
-   1. 
+* **User Management**: Authentication using z/OSMF mainframe credentials for secure access.
+* **Observability**: Advanced monitoring and diagnostic tools for improved system visibility.
+* **Deployment Orchestration**: Kubernetes‑based orchestration with native Red Hat OpenShift support, providing scalable, secure, and streamlined application deployments.
+* **AI Integration**: Includes the BMC AMI Assistant chat interface and AI-driven services to assist with operational tasks.
 
-![](../Image/Test-img.png)
-|Player|Name|Country
-|------|----|-------|
-|1     |Ronaldo| |
-|2     | Messi | Argentina|
+  These features aim to provide a more automated and integrated mainframe ecosystem without altering existing core functionality.
 
-| Player | Sports | Age | Country |
-| :--- | :---: | ---: | --- |
-| A | Badminton | 25 | India |
-| B | Football | 26 | Argentina |
-
-
-
-> [!NOTE]
-> Make sure Git is installed before you begin.
- 
-> [!TIP]
-> You can verify the installation by running `git --version`.
- 
-> [!WARNING]
-> Do not close the terminal while the installation is running.
-
-
-> [!Example]
-> Example 
-
-
-Markdown is a lightweight markup language.[^1]
- 
-[^1]: Markdown was created by John Gruber and Aaron Swartz.
- 
-Markdown is commonly used for documentation.[^1]
-GitHub supports GitHub FlavoredMarkdown (GFM).[^2]
- 
-[^1]: Markdown is designed to be easy to read and write.
-[^2]: GFM extends standard Markdown with additional features.
- 
- <details>
-<summary>Click to expand</summary>
- 
-This content is hidden by default.
- 
-You can include following types of content:
- 
-- Text
-- Lists
-- Code
-- Links
-- Images
- 
-</details>
+| Core objective | Details |
+|------|------|
+| Deployment | <ul><li>Declares the desired application version.</li><li>Specifies the pod count.</li><li>Defines the rollback strategy.</li></ul> |
+| ReplicaSet | <ul><li>Maintains the required number of identical pods.</li><li>Replaces failed or deleted pods automatically.</li></ul> |
