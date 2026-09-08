@@ -1,6 +1,7 @@
 - [Getting started](#getting-started)
-  - [Before you begin](#before-you-begin)
-## Getting started
+    - [Before you begin](#before-you-begin)
+ 
+ # Getting started
 >SMS: Getting started should be heading 1, shouldn't it
 If you are new to the BMC AMI Platform product, read and perform the getting started tasks to learn how to simplify daily operations, improve knowledge retention, and support both experienced and new mainframe professionals using the **BMC AMI Platform** product. 
 
