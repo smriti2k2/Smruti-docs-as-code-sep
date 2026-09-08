@@ -8,7 +8,7 @@ If you are new to the BMC AMI Platform product, read and perform the getting sta
 >SMS: After each heading you need a blank line (I think)
 The BMC AMI Platform runs on Kubernetes‑based container orchestration, with Red Hat OpenShift providing the enterprise Kubernetes distribution. Kubernetes provides the core control plane and worker node architecture required to schedule, execute, scale, and self‑heal containerized workloads. Control‑plane components, including the **API server**, scheduler, controller manager, and etcd datastore, manage cluster state and orchestration logic, while worker nodes host platform and application pods via the kubelet and container runtime. 
 
- Version 2.2.00 introduces several key enhancements:
+ Version 2.2.00 introduces several key enhancements: Comment Addressed
 
 >SMS: Weren't we using dashes (-) for bullets?
 * **User Management**: Authentication using z/OSMF mainframe credentials for secure access.
