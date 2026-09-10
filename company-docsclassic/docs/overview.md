@@ -1,0 +1,2 @@
+# Getting started
+Highly adept at understanding and following instructions, suitable for tasks from simple question answering to complex content generation; delivers state-of-the-art performance on benchmarks including question answering, text generation, and translation; can generate high-quality text including stories, **poems**, articles, and code; can translate text between multiple languages; versatile enough for a wide range of business and research tasks; easy to use and accessible through a variety of APIs.
